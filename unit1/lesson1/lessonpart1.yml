@@ -1,0 +1,81 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page 1
+content: >
+  ## Wat is JavaScript?
+
+
+  JavaScript is een krachtige programmeertaal die voornamelijk wordt gebruikt
+  voor het ontwikkelen van interactieve en dynamische webpagina's. Het is een
+  van de kerntechnologieën van het World Wide Web, samen met HTML en CSS.
+  JavaScript maakt het mogelijk om webpagina's te verrijken met interactieve
+  elementen zoals formulieren, animaties, en dynamische inhoud.
+
+
+  ## Geschiedenis van JavaScript
+
+
+  JavaScript werd in 1995 ontwikkeld door Brendan Eich bij Netscape. Het was
+  oorspronkelijk bedoeld om webpagina's interactiever te maken. Sindsdien is het
+  uitgegroeid tot een veelzijdige taal die niet alleen in browsers, maar ook op
+  servers en in verschillende applicaties wordt gebruikt.
+
+
+  ## Basiskenmerken van JavaScript
+
+
+  - **Interactiviteit**: JavaScript kan reageren op gebruikersacties zoals
+  klikken, invoer en muisbewegingen.
+
+  - **Dynamische inhoud**: Het kan de inhoud van een webpagina aanpassen zonder
+  de pagina opnieuw te laden.
+
+  - **Brede compatibiliteit**: JavaScript werkt in alle moderne webbrowsers en
+  is platformonafhankelijk.
+
+  - **Objectgeoriënteerd**: JavaScript ondersteunt objectgeoriënteerd
+  programmeren, wat het mogelijk maakt om complexe applicaties te structureren.
+
+
+  ## Voorbeeld van JavaScript-code
+
+
+  Hier is een eenvoudig voorbeeld van JavaScript-code die een bericht in de
+  console van de browser afdrukt:
+
+
+  ```javascript
+
+  console.log('Hallo, wereld!');
+
+  ```
+
+
+  Deze code gebruikt de `console.log` functie om de tekst "Hallo, wereld!" weer
+  te geven in de console. Dit is een basisvoorbeeld van hoe JavaScript kan
+  worden gebruikt om met de gebruiker te communiceren.
+
+
+  ## Conclusie
+
+
+  JavaScript is een essentiële taal voor webontwikkeling en biedt talloze
+  mogelijkheden om webpagina's interactief en dynamisch te maken. In de komende
+  lessen zullen we dieper ingaan op de basisconcepten en toepassingen van
+  JavaScript, zodat je zelf aan de slag kunt met het bouwen van interactieve
+  webapplicaties.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/newFile.html
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: string
+        content: Hoe druk je iets af met JavaScript?
+        options:
+          - id: "1"
+            value: console.log
+            explanation: De functie console.log wordt gebruikt om berichten in de console
+              van de browser af te drukken.
+            isCorrect: true
